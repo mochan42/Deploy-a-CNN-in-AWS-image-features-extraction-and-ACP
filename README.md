@@ -1,6 +1,7 @@
 # Deploy-a-CNN-in-AWS-image-features-extraction-and-ACP
 
-* This project consists in running a CNN (MobileNet-V2) in an AWS Elastic Map Reduce(EMR) Cluster in order to extract features of 100 images of fruits which are stored in AWS Simple Storage Solution (S3). The idea is to validate image procession chain on a small number of images so that it can be used when the number of images will increase dramatically (the scaling can be easily performed by adding more EMR clusters).<br>
+* This project consists in running a CNN (MobileNet-V2) in an AWS Elastic Map Reduce(EMR) Cluster in order to extract features of 100 images of fruits which are stored in AWS Simple Storage Solution (S3). <br>
+* The idea is to validate the image processing chain on a small number of images so that it can be used when the number of images will increase dramatically (the scaling can be easily performed by adding more EMR clusters).<br>
 * Once extracted, the features are stored in AWS S3 and a Principal Component Analysis (PCA) is performed.<br>
 
 
